@@ -1,0 +1,32 @@
+{
+  "name": "Drawnix",
+  "package": "cloud.lazycat.app.drawnix",
+  "description": "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等",
+  "homepage": "https://github.com/plait-board/drawnix",
+  "author": "plait-board",
+  "app_features": [
+    "background_task",
+    "public_path"
+  ],
+  "subdomain": "drawnix",
+  "version": "0.0.1",
+  "public_paths": [
+    "/"
+  ],
+  "iconPath": "icon.png",
+  "composePath": "docker-compose.yaml",
+  "unsupported_platforms": [],
+  "lastRouteType": "from_compose",
+  "port_mappings": {
+    "drawnix_7200_7200": {
+      "use": true,
+      "type": "http",
+      "path": "/",
+      "targetPath": "/"
+    }
+  },
+  "image_mingyue0094_drawnix_20250201225409": {
+    "originalImage": "mingyue0094/drawnix:20250201225409",
+    "pushTarget": "none"
+  }
+}

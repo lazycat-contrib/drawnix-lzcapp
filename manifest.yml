@@ -1,0 +1,22 @@
+lzc-sdk-version: "0.1"
+name: Drawnix
+package: cloud.lazycat.app.drawnix
+version: 0.0.2
+description: 开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等
+homepage: https://github.com/plait-board/drawnix
+author: plait-board
+application:
+  subdomain: drawnix
+  background_task: true
+  multi_instance: false
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  public_path:
+    - /
+  routes:
+    - /=http://drawnix:80/
+services:
+  drawnix:
+    container_name: drawnix
+    image: registry.lazycat.cloud/czyt/ydxian/drawnix:c09b0968e532738a

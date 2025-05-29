@@ -1,0 +1,5 @@
+services:
+    drawnix:
+        ports:
+            - 7200:7200
+        image: mingyue0094/drawnix:20250201225409
