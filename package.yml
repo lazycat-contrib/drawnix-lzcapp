@@ -1,0 +1,16 @@
+package: cloud.lazycat.app.drawnix
+version: 0.2.0
+name: Drawnix
+description: "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等"
+min_os_version: 1.5.0
+homepage: https://github.com/plait-board/drawnix
+author: plait-board
+
+locales:
+  zh:
+    name: "Drawnix"
+    description: "一体化开源白板工具，支持思维导图、流程图和自由绘制"
+  en:
+    name: "Drawnix"
+    description: "An all-in-one open-source whiteboard with mind maps, flowcharts, and freehand drawing"
+
