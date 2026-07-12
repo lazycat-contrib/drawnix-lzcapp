@@ -11,5 +11,5 @@ application:
     - /=http://drawnix:80/
 services:
   drawnix:
-    # upstream: pubuzhixing/drawnix:v0.2.0
-    image: registry.lazycat.cloud/czyt/ydxian/drawnix:c09b0968e532738a
+    # upstream: pubuzhixing/drawnix:v0.4.1
+    image: registry.lazycat.cloud/czyt/pubuzhixing/drawnix:c3df38bed7d4f45f
