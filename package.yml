@@ -1,4 +1,5 @@
 package: cloud.lazycat.app.drawnix
+license: MIT
 version: 0.4.1
 name: Drawnix
 description: "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等"
